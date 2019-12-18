@@ -15,7 +15,7 @@ from random import randint
 import time
 from shutil import *
 
-os.environ["THEANO_FLAGS"] = "mode=FAST_RUN,device=gpu3,floatX=float32"
+os.environ["THEANO_FLAGS"] = "mode=FAST_RUN,device=gpu0,floatX=float32"
 import theano
 import theano.tensor as T
 from theano import *
